@@ -1,6 +1,6 @@
 import "./index.css";
 import Header from "./Components/Header.jsx";
-import Food from "./components/Food.jsx";
+import Food from "./Components/Food.jsx";
 import Groceries from "./Components/Groceries.jsx";
 import Restaurants from "./Components/Restaurants.jsx";
 import Delivery from "./Components/Delivery.jsx";
