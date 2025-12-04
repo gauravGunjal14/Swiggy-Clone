@@ -1,5 +1,5 @@
 import "./index.css";
-import Header from "./components/Header.jsx";
+import Header from "./Components/Header.jsx";
 import Food from "./components/Food.jsx";
 import Groceries from "./Components/Groceries.jsx";
 import Restaurants from "./Components/Restaurants.jsx";
