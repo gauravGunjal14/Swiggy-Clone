@@ -1,4 +1,4 @@
-import { FoodData } from "../utils/FoodData";
+import { FoodData } from "../Utils//FoodData";
 
 export default function Food() {
     return (
