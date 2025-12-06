@@ -1,6 +1,6 @@
 import { Cities } from "../Utils/Cities";
 
-export default function Delivery() {
+export default function DeliverySection() {
     return (
         // App Download Banner and Cities with food delivery
 
@@ -12,7 +12,7 @@ export default function Delivery() {
                     <h3 className="text-2xl font-bold mb-8">Cities with food delivery</h3>
                     <div className="grid grid-cols-4 gap-5 flex-wrap">
                         {Cities.map((city) => (
-                            <div key={city} className="border border-gray-600 rounded-xl px-5 py-3 mr-5 mb-5 text-gray-600 cursor-pointer text-center">
+                            <div key={city} className="border border-gray-600 rounded-xl px-5 py-3 mr-5 mb-5 text-gray-600 cursor-pointer flex justify-center items-center text-center">
                                 Order food online in {city}
                             </div>
                         ))}
@@ -31,7 +31,7 @@ export default function Delivery() {
                     <h3 className="text-2xl font-bold mb-8">Cities with grocery delivery</h3>
                     <div className="grid grid-cols-4 gap-5 flex-wrap">
                         {Cities.map((city) => (
-                            <div key={city} className="border border-gray-600 rounded-xl px-5 py-3 mr-5 mb-5 text-gray-600 cursor-pointer text-center">
+                            <div key={city} className="border border-gray-600 rounded-xl px-5 py-3 mr-5 mb-5 text-gray-600 cursor-pointer flex justify-center items-center text-center">
                                 Order grocery delivery in {city}
                             </div>
                         ))}

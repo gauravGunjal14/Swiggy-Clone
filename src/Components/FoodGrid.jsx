@@ -1,6 +1,6 @@
 import { FoodData } from "../Utils//FoodData";
 
-export default function Food() {
+export default function FoodGrid() {
     return (
         <div className="mt-30 w-[80%] mx-auto font-serif">
             <h3 className="text-2xl font-bold mb-8">Order our best food options</h3>

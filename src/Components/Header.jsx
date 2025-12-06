@@ -1,8 +1,10 @@
+import { Link } from "react-router";
+
 export default function Header() {
     return (
         <header className="bg-[#ff5200]">
             <div className="w-7/10 flex justify-between items-center max-w-6xl mx-auto py-8">
-                <a href="https://www.swiggy.com/" target="_blank"><img className="w-40 h-12 cursor-pointer" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/portal/static-assets/images/swiggy_logo_white.png" alt="Swiggy logo"></img></a>
+            <Link to={"/"}><img className="w-40 h-12 cursor-pointer" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/portal/static-assets/images/swiggy_logo_white.png" alt="Swiggy logo"></img></Link>
                 <div className="text-white text-base font-bold space-x-10 flex items-center">
                     <a href="" target="_blank">Swiggy Corporate</a>
                     <a href="" target="_blank">Partner with us</a>
@@ -22,7 +24,7 @@ export default function Header() {
                 </div>
             </div>
             <div className="flex justify-center items-center px-2 pb-5">
-                <img className="lg:h-80 md:h-50 sm:h-30 w-auto" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/23/ec86a309-9b06-48e2-9adc-35753f06bc0a_Food3BU.png" alt="Food"/>
+                <Link to={"/restraurants"}><img className="lg:h-80 md:h-50 sm:h-30 w-auto" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/23/ec86a309-9b06-48e2-9adc-35753f06bc0a_Food3BU.png" alt="Food"/></Link>
                 <img className="lg:h-80 md:h-50 sm:h-30 w-auto" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/23/b5c57bbf-df54-4dad-95d1-62e3a7a8424d_IM3BU.png" alt="IM"/>
                 <img className="lg:h-80 md:h-50 sm:h-30 w-auto" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/23/b6d9b7ab-91c7-4f72-9bf2-fcd4ceec3537_DO3BU.png" alt="DO"/>
             </div>

@@ -1,8 +1,8 @@
 import { RestaurantData } from "../Utils/RestaurantData";
 
-export default function Restaurant() {
+export default function RestaurantsSection() {
     return (
-        <div className="mt-30 w-[80%] mx-auto font-sans">
+        <div className="my-30 w-[80%] mx-auto font-sans">
             <h3 className="text-2xl font-bold mb-8">Discover best restaurants on Dineout</h3>
             <div className="flex gap-10 flex-wrap justify-center">
                 {RestaurantData.map((RestaurantItem) => (

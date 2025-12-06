@@ -1,6 +1,6 @@
 import { GroceriesData } from "../Utils/GroceriesData";
 
-export default function Groceries() {
+export default function GroceriesGrid() {
     return (
         <div className="mt-30 w-[80%] mx-auto font-serif">
             <h3 className="text-2xl font-bold mb-8">Shop groceries on Instamart</h3>

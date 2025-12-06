@@ -1,20 +1,17 @@
 import "./index.css";
-import Header from "./Components/Header.jsx";
-import Food from "./Components/Food.jsx";
-import Groceries from "./Components/Groceries.jsx";
-import Restaurants from "./Components/Restaurants.jsx";
-import Delivery from "./Components/Delivery.jsx";
-import Footer from "./Components/Footer.jsx";
+import { BrowserRouter, Routes, Route } from "react-router"
+import Home from "./pages/Home.jsx"
+import Restaurant from "./pages/Restaurant.jsx";
 
 export default function App() {
     return (
-        <div className="font-serif">
-            <Header></Header>
-            <Food></Food>
-            <Groceries></Groceries>
-            <Restaurants></Restaurants>
-            <Delivery></Delivery>
-            <Footer></Footer>
+        <div>
+            <BrowserRouter>
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/restraurants" element={<Restaurant />} />
+                </Routes>
+            </BrowserRouter>
         </div>
     );
 }
