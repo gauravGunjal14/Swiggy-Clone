@@ -23,7 +23,7 @@ export default function Header() {
                     <input type="text" placeholder="Search for restaurant, item or more" className="bg-white rounded-2xl px-4 py-4 w-6/10"></input>
                 </div>
             </div>
-            <div className="flex justify-center items-center px-2 pb-5">
+            <div className="flex justify-center items-center px-2 py-1 pb-5">
                 <Link to={"/restraurants"}><img className="lg:h-80 md:h-50 sm:h-30 w-auto" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/23/ec86a309-9b06-48e2-9adc-35753f06bc0a_Food3BU.png" alt="Food"/></Link>
                 <img className="lg:h-80 md:h-50 sm:h-30 w-auto" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/23/b5c57bbf-df54-4dad-95d1-62e3a7a8424d_IM3BU.png" alt="IM"/>
                 <img className="lg:h-80 md:h-50 sm:h-30 w-auto" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/23/b6d9b7ab-91c7-4f72-9bf2-fcd4ceec3537_DO3BU.png" alt="DO"/>
