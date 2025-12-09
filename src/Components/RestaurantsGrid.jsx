@@ -14,7 +14,7 @@ export default function RestaurantsGrid() {
         <div className="w-[90%] flex flex-col items-center mx-auto">
             <div className="flex flex-wrap gap-10 mx-auto justify-center">{
                 visibleRestaurants.map((restaurant) => (
-                    <a key={restaurant?.info?.id} href="">
+                    <a key={restaurant?.info?.id} href="" className=" transform transition duration-300 hover:scale-95">
                         <div className="flex flex-col w-75">
                             <div className="relative rounded-2xl overflow-hidden">
                                 <p className="absolute bottom-0 left-0 w-full pb-2 pl-2 font-bold text-2xl text-white bg-linear-to-t from-black">{restaurant?.info?.aggregatedDiscountInfoV3?.header + " " + restaurant?.info?.aggregatedDiscountInfoV3?.subHeader}</p>
@@ -23,7 +23,14 @@ export default function RestaurantsGrid() {
                             </div>
                             <div className="mx-4 my-2 flex flex-col gap-1">
                                 <h2 className="font-bold text-xl">{restaurant?.info?.name}</h2>
-                                <p className="font-bold">{restaurant?.info?.avgRating} &#9733; &#8226; {restaurant?.info?.sla?.deliveryTime} mins</p>
+                                <p className="font-bold flex items-center gap-1">
+                                    <svg width="15" height="15" viewBox="0 0 24 26" className="fill-white bg-green-500 rounded-full p-[1.5px]">
+                                        <path d="M12 .587l3.668 7.431 8.2 1.193-5.934 5.787 1.402 8.168L12 18.896l-7.336 3.87 1.402-8.168L.132 9.211l8.2-1.193z" />
+                                    </svg>
+
+                                    <span className="font-medium">{restaurant?.info?.avgRating}</span>
+                                    &#8226; {restaurant?.info?.sla?.deliveryTime} mins
+                                </p>
                                 <p className="text-gray-500">{restaurant?.info?.cuisines?.join(", ")}</p>
                             </div>
                         </div>
