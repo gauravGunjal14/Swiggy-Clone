@@ -1,7 +1,7 @@
 export default function Footer() {
     return (
         <div className="mt-20  bg-[#F0F0F5] flex flex-col justify-center items-center">
-            <div className="w-[80%] flex justify-center py-10 gap-20">
+            <div className="w-[80%] flex justify-center py-10 gap-10 md:gap-20 lg:gap-30">
                 <div>
                     <img src="https://media-assets.swiggy.com/portal/testing/seo-home/Group.svg" alt="logo" />
                     <p className="font-sans text-gray-600 pt-2">&copy; 2035 Swiggy Limited</p>
@@ -55,7 +55,7 @@ export default function Footer() {
                     </div>
                     <div className="font-sans font-bold pt-6">
                         <p>Social Links</p>
-                        <div className="flex gap-4 mt-4">
+                        <div className="flex flex-wrap w-30 gap-2 mt-4">
                             <img src="https://media-assets.swiggy.com/portal/testing/seo-home/Linkedin.svg" alt="Linkedin" />
                             <img src="https://media-assets.swiggy.com/portal/testing/seo-home/icon-instagram.svg" alt="instagram" />
                             <img src="http://media-assets.swiggy.com/portal/testing/seo-home/icon-facebook.svg" alt="facebook" />
@@ -67,7 +67,7 @@ export default function Footer() {
             </div>
 
 
-            <div className="py-6 border-t border-gray-400 w-[90%] flex justify-center items-center gap-6">
+            <div className="py-6 border-t border-gray-400 w-[90%] flex flex-col lg:flex-row md:flex-row justify-center items-center gap-6">
                 <p className="font-sans text-gray-600 font-bold text-2xl text-center py-4">For better experience, download the Swiggy app now</p>
                 <img className="w-49" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_200,h_65/icon-AppStore_lg30tv" alt="App Store" />
                 <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_200,h_65/icon-GooglePlay_1_zixjxl" alt="Play Store" />

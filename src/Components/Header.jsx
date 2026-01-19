@@ -13,8 +13,8 @@ export default function Header() {
                 </div>
             </div>
             <div className="relative">
-                <img className="lg:h-112 md:h-80 sm:h-50 w-auto absolute left-0 top-0" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/portal/testing/seo-home/Veggies_new.png" alt="left_img" />
-                <img className="lg:h-112 md:h-80 sm:h-50 w-auto absolute right-0 top-0" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/portal/testing/seo-home/Sushi_replace.png" alt="right_img"/>
+                <img className="lg:h-112 md:h-80 sm:h-50 h-30 w-auto absolute left-0 top-0" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/portal/testing/seo-home/Veggies_new.png" alt="left_img" />
+                <img className="lg:h-112 md:h-80 sm:h-50 h-30 w-auto absolute right-0 top-0" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/portal/testing/seo-home/Sushi_replace.png" alt="right_img"/>
             </div>
             <div className="text-white font-bold pt-16 pb-8 flex justify-center flex-col items-center text-center w-6/10 mx-auto position-relative">
                 <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl">Order food & groceries. Discover best restaurants. Swiggy it!</h2>
@@ -24,9 +24,9 @@ export default function Header() {
                 </div>
             </div>
             <div className="flex justify-center items-center px-2 py-1 pb-5">
-                <Link to={"/restraurants"}><img className="lg:h-80 md:h-50 sm:h-30 w-auto" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/23/ec86a309-9b06-48e2-9adc-35753f06bc0a_Food3BU.png" alt="Food"/></Link>
-                <img className="lg:h-80 md:h-50 sm:h-30 w-auto" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/23/b5c57bbf-df54-4dad-95d1-62e3a7a8424d_IM3BU.png" alt="IM"/>
-                <img className="lg:h-80 md:h-50 sm:h-30 w-auto" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/23/b6d9b7ab-91c7-4f72-9bf2-fcd4ceec3537_DO3BU.png" alt="DO"/>
+                <Link to={"/restraurants"}><img className="lg:h-80 md:h-50 sm:h-30 h-15 w-auto" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/23/ec86a309-9b06-48e2-9adc-35753f06bc0a_Food3BU.png" alt="Food"/></Link>
+                <img className="lg:h-80 md:h-50 sm:h-30 h-15 w-auto" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/23/b5c57bbf-df54-4dad-95d1-62e3a7a8424d_IM3BU.png" alt="IM"/>
+                <img className="lg:h-80 md:h-50 sm:h-30 h-15 w-auto" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/23/b6d9b7ab-91c7-4f72-9bf2-fcd4ceec3537_DO3BU.png" alt="DO"/>
             </div>
         </header>
     );

@@ -7,7 +7,7 @@ export default function RestaurantsSection() {
             <div className="flex gap-10 flex-wrap justify-center">
                 {RestaurantList.map((RestaurantItem) => (
                     <div key={RestaurantItem.info.id} className="w-80 rounded-2xl shadow-md border border-gray-300 ">
-                        <a href={`https://www.swiggy.com/restaurants/${RestaurantItem.info.id}/dineout`}>
+                        <a href="">
                             <div className="relative">
                                 <img src={`https://dineout-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/${RestaurantItem.info.mediaFiles[0].url}`} alt={RestaurantItem.info.name} className="w-80 h-48 object-cover rounded-t-2xl" />
                                 <div className="flex justify-between gap-5 items-center text-lg font-sans font-bold text-white absolute bottom-0 w-full h-auto px-2 py-2 bg-linear-to-t from-black to-black-100">
